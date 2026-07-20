@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.health.fitness.HealthIndexScoreRobustnessTest
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.137 s <<< FAILURE! -- in com.health.fitness.HealthIndexScoreRobustnessTest
+com.health.fitness.HealthIndexScoreRobustnessTest.TC019 -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3234)
+	at com.health.fitness.HealthIndexScoreRobustnessTest.TC019(HealthIndexScoreRobustnessTest.java:91)
+
