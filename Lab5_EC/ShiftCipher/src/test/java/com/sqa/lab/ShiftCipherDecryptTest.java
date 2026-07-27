@@ -69,7 +69,7 @@ public class ShiftCipherDecryptTest {
 
     @Order(3)
     @Test
-    @DisplayName("TC011 - cipherText = null")
+    @DisplayName("TC012 - cipherText = null")
     void testDecryptNullCipherText() {
 
         System.out.println("TC012 | Input=null | Key=5 | Expect Exception");
