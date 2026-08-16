@@ -74,11 +74,11 @@ public class BottomUpIntegrationTest {
     }
 
     @Test
-    public void testUniveralConverters(){
+    public void testCompleteIntegration() {
         UniversalConverter converter = new UniversalConverter();
 
-        assertEquals(10000.0, converter.convert(10,"km", "m"));
-        assertEquals(160.0, converter.convert(10,"lb", "oz"));
-        assertEquals(32.0, converter.convert(0,"C", "F"));
+        assertEquals(10000.0, converter.convert(10, "km", "m"));
+        assertEquals(160.0, converter.convert(10, "lb", "oz"));
+        assertEquals(32.0, converter.convert(0, "C", "F"));
     }
 }
